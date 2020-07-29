@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Background</title>
+        <style>
+            #bg {
+                width: 500px;
+                height: 500px;
+                background-color: lightgrey;
+                background-image: url("mrbean.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                /*if you have the background-something first then specify just background, the background will just follow the rule of the background:*/
+                background: url("mrbean.jpg") no-repeat center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The Background Property</h1>
+        
+        <div id="bg">Background properties are fun!</div>        
+    </body>
+</html>
