@@ -1,0 +1,54 @@
+/***********************Base Styling****************************/
+h1 {
+    font-family: helvetica, sans-serif;
+    color: #6e0404;
+    text-shadow: 2px 2px 4px #ab0a0a;
+    margin-top: 10px;
+}
+
+body {
+    font-family: helvetica, sans-serif;
+}
+
+/***********************End of Base Styling************************/
+
+/************************Header***************************/
+
+
+#navbar-brand {
+    font-size: 1.5em;
+}
+
+.navbar-nav {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+/************************End of Header**************************/
+
+/************************Main Content***************************/
+h2 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.column {
+    margin: 20px;
+}
+
+.beef,
+.chicken,
+.sushi {
+    margin-top: 20px;
+    padding: 20px 25px;
+    background-color: #dbb6b6;
+    box-shadow: 1px 1px 3px black;
+}
+
+.return-link {
+    color: #630a0a;
+}
+/************************End of Main Content*************************/
